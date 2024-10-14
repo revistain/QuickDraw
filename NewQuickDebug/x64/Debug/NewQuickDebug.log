@@ -1,0 +1,575 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.h(14,9): warning C4068: 알 수 없는 pragma 'commet'
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,6): error C2039: 'optional': 'std'의 멤버가 아닙니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,14): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,6): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,14): error C2059: 구문 오류: '<'
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15): error C2679: 이항 '<<': 오른쪽 피연산자로 'std::chrono::milliseconds' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(486,39):
+      'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'일 수 있습니다.
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::basic_streambuf<char,std::char_traits<char>> *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(454,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': 인수 2을(를) 'std::chrono::milliseconds'에서 'const void *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(436,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': 인수 2을(를) 'std::chrono::milliseconds'에서 'long double'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(418,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': 인수 2을(를) 'std::chrono::milliseconds'에서 'double'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(400,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': 인수 2을(를) 'std::chrono::milliseconds'에서 'float'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(382,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned __int64'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(364,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': 인수 2을(를) 'std::chrono::milliseconds'에서 '__int64'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(346,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned long'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(328,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': 인수 2을(를) 'std::chrono::milliseconds'에서 'long'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(309,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned int'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(283,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': 인수 2을(를) 'std::chrono::milliseconds'에서 'int'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(264,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned short'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(230,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': 인수 2을(를) 'std::chrono::milliseconds'에서 'short'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(212,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': 인수 2을(를) 'std::chrono::milliseconds'에서 'bool'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(206,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::ios_base &(__cdecl *)(std::ios_base &)'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(200,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(195,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3420,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': 'std::chrono::milliseconds'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1979,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': 'std::chrono::milliseconds'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3761,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': 'std::chrono::milliseconds'에서 'const std::unique_ptr<_Ty2,_Dx2> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(694,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(738,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(774,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(819,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(857,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': 'std::chrono::milliseconds'에서 'const _Elem *'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(900,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': 템플릿 매개 변수 '_Elem'이(가) 모호합니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+              'std::chrono::milliseconds'일 수 있습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+              또는      'char'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': 'std::chrono::milliseconds'에서 '_Elem'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(936,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const signed char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(942,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'signed char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(947,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const unsigned char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(953,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'unsigned char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1011,9):
+      또는       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1010,103):
+              '<template-parameter>': 참조에 대한 포인터를 만들 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1088,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const std::error_code &'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              원인: 'std::chrono::milliseconds'에서 'const std::error_code'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\thread(251,37):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,std::thread::id)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'std::thread::id'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\valarray(788,26):
+      또는       'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const valarray<_Ty>::value_type &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const valarray<_Ty>::value_type &)': 'std::basic_ostream<char,std::char_traits<char>>'에서 'const std::valarray<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\valarray(798,26):
+      또는       'std::valarray<_Ty> std::operator <<(const valarray<_Ty>::value_type &,const std::valarray<_Ty> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::valarray<_Ty> std::operator <<(const valarray<_Ty>::value_type &,const std::valarray<_Ty> &)': 'std::chrono::milliseconds'에서 'const std::valarray<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\valarray(972,26):
+      또는       'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const std::valarray<_Ty> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const std::valarray<_Ty> &)': 'std::basic_ostream<char,std::char_traits<char>>'에서 'const std::valarray<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+      인수 목록 '(std::basic_ostream<char,std::char_traits<char>>, std::chrono::milliseconds)'을(를) 일치시키는 동안
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(36,14): error C2039: 'apply': 'std'의 멤버가 아닙니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(114,14): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(114,26): error C2039: 'exists': 'std'의 멤버가 아닙니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(114,26): error C3861: 'exists': 식별자를 찾을 수 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(208,16): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(208,28): error C2039: 'file_time_type': 'std'의 멤버가 아닙니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(208,5): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(208,42): error C2143: 구문 오류: ','이(가) '&' 앞에 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(211,21): error C2065: 'time1': 선언되지 않은 식별자입니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(211,29): error C2065: 'time2': 선언되지 않은 식별자입니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(212,55): error C3536: 'duration': 초기화되기 전에 사용할 수 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(212,32): error C2672: 'std::chrono::duration_cast': 일치하는 오버로드된 함수가 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\__msvc_chrono.hpp(87,19):
+      '_To std::chrono::duration_cast(const std::chrono::duration<_Rep,_Period> &) noexcept(<expr>)'일 수 있습니다.
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(212,32):
+          '_To std::chrono::duration_cast(const std::chrono::duration<_Rep,_Period> &) noexcept(<expr>)': 'int'에서 'const std::chrono::duration<_Rep,_Period> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(213,19): error C3536: 'duration_in_seconds': 초기화되기 전에 사용할 수 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(244,6): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(244,18): error C2039: 'file_time_type': 'std'의 멤버가 아닙니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(244,18): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(244,33): error C2146: 구문 오류: ';'이(가) 'previous_ftime' 식별자 앞에 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(244,55): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(244,67): error C3083: 'file_time_type': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,9): error C2065: 'previous_ftime': 선언되지 않은 식별자입니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,32): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,44): error C3083: 'file_time_type': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,60): error C2672: 'std::min': 일치하는 오버로드된 함수가 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(105,26):
+      '_Ty std::min(std::initializer_list<_Elem>)'일 수 있습니다.
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,60):
+          '_Ty std::min(std::initializer_list<_Elem>)': 1개의 인수가 필요합니다. 0개가 제공되었습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(102,26):
+      또는       '_Ty std::min(std::initializer_list<_Elem>,_Pr)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,60):
+          '_Ty std::min(std::initializer_list<_Elem>,_Pr)': 2개의 인수가 필요합니다. 0개가 제공되었습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(95,6):
+      또는       'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,60):
+          'const _Ty &std::min(const _Ty &,const _Ty &) noexcept(<expr>)': 2개의 인수가 필요합니다. 0개가 제공되었습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(85,33):
+      또는       'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(246,60):
+          'const _Ty &std::min(const _Ty &,const _Ty &,_Pr) noexcept(<expr>)': 3개의 인수가 필요합니다. 0개가 제공되었습니다.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(247,9): error C2065: 'previous_ftime': 선언되지 않은 식별자입니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(247,31): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(247,43): error C2039: 'last_write_time': 'std'의 멤버가 아닙니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(247,43): error C3861: 'last_write_time': 식별자를 찾을 수 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,14): error C2065: 'previous_ftime': 선언되지 않은 식별자입니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,36): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,48): error C2039: 'last_write_time': 'std'의 멤버가 아닙니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,48): error C3861: 'last_write_time': 식별자를 찾을 수 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,91): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,103): error C2039: 'last_write_time': 'std'의 멤버가 아닙니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,103): error C3861: 'last_write_time': 식별자를 찾을 수 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(249,126): error C2065: 'previous_ftime': 선언되지 않은 식별자입니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(254,13): error C2065: 'previous_ftime': 선언되지 않은 식별자입니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(254,35): error C3083: 'filesystem': '::'의 왼쪽에 있는 기호는 형식이어야 합니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(254,47): error C2039: 'last_write_time': 'std'의 멤버가 아닙니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\json.hpp(24498,11):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(254,47): error C3861: 'last_write_time': 식별자를 찾을 수 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\main.cpp(255,53): error C2065: 'previous_ftime': 선언되지 않은 식별자입니다.
+  memset.cpp
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\memset.cpp(114,48): warning C4311: '형식 캐스트': 'HMODULE'에서 'DWORD'(으)로 포인터가 잘립니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\memset.cpp(114,48): warning C4302: '형식 캐스트': 'HMODULE'에서 'DWORD'(으)로 잘립니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  NewQuickDebug.cpp
+  utils.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\optional(11): warning STL4038: The contents of <optional> are available only with C++17 or later.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,6): error C2039: 'optional': 'std'의 멤버가 아닙니다.
+  (소스 파일 'utils.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\fstream(20,1):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,14): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+  (소스 파일 'utils.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,6): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+  (소스 파일 'utils.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,14): error C2059: 구문 오류: '<'
+  (소스 파일 'utils.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15): error C2679: 이항 '<<': 오른쪽 피연산자로 'std::chrono::milliseconds' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+  (소스 파일 'utils.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(486,39):
+      'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'일 수 있습니다.
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::basic_streambuf<char,std::char_traits<char>> *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(454,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': 인수 2을(를) 'std::chrono::milliseconds'에서 'const void *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(436,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': 인수 2을(를) 'std::chrono::milliseconds'에서 'long double'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(418,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': 인수 2을(를) 'std::chrono::milliseconds'에서 'double'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(400,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': 인수 2을(를) 'std::chrono::milliseconds'에서 'float'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(382,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned __int64'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(364,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': 인수 2을(를) 'std::chrono::milliseconds'에서 '__int64'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(346,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned long'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(328,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': 인수 2을(를) 'std::chrono::milliseconds'에서 'long'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(309,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned int'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(283,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': 인수 2을(를) 'std::chrono::milliseconds'에서 'int'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(264,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': 인수 2을(를) 'std::chrono::milliseconds'에서 'unsigned short'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(230,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': 인수 2을(를) 'std::chrono::milliseconds'에서 'short'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(212,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': 인수 2을(를) 'std::chrono::milliseconds'에서 'bool'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(206,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::ios_base &(__cdecl *)(std::ios_base &)'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(200,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(195,39):
+      또는       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': 인수 2을(를) 'std::chrono::milliseconds'에서 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(3420,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': 'std::chrono::milliseconds'에서 'const std::basic_string<_Elem,_Traits,_Alloc> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(1979,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': 'std::chrono::milliseconds'에서 'const std::shared_ptr<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3761,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': 'std::chrono::milliseconds'에서 'const std::unique_ptr<_Ty2,_Dx2> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(694,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(738,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(774,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(819,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(857,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': 'std::chrono::milliseconds'에서 'const _Elem *'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(900,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': 템플릿 매개 변수 '_Elem'이(가) 모호합니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+              'std::chrono::milliseconds'일 수 있습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+              또는      'char'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': 'std::chrono::milliseconds'에서 '_Elem'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(936,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const signed char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(942,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'signed char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(947,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const unsigned char *'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(953,31):
+      또는       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'unsigned char'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1011,9):
+      또는       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1010,103):
+              '<template-parameter>': 참조에 대한 포인터를 만들 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\ostream(1088,32):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'const std::error_code &'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              원인: 'std::chrono::milliseconds'에서 'const std::error_code'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\thread(251,37):
+      또는       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,std::thread::id)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+          '초기화 중': 'std::chrono::milliseconds'에서 'std::thread::id'(으)로 변환할 수 없습니다.
+              C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,31):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\valarray(788,26):
+      또는       'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const valarray<_Ty>::value_type &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const valarray<_Ty>::value_type &)': 'std::basic_ostream<char,std::char_traits<char>>'에서 'const std::valarray<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\valarray(798,26):
+      또는       'std::valarray<_Ty> std::operator <<(const valarray<_Ty>::value_type &,const std::valarray<_Ty> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::valarray<_Ty> std::operator <<(const valarray<_Ty>::value_type &,const std::valarray<_Ty> &)': 'std::chrono::milliseconds'에서 'const std::valarray<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\valarray(972,26):
+      또는       'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const std::valarray<_Ty> &)'
+          C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+          'std::valarray<_Ty> std::operator <<(const std::valarray<_Ty> &,const std::valarray<_Ty> &)': 'std::basic_ostream<char,std::char_traits<char>>'에서 'const std::valarray<_Ty> &'에 대한 템플릿 인수를 추론할 수 없습니다.
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(33,15):
+      인수 목록 '(std::basic_ostream<char,std::char_traits<char>>, std::chrono::milliseconds)'을(를) 일치시키는 동안
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(36,14): error C2039: 'apply': 'std'의 멤버가 아닙니다.
+  (소스 파일 'utils.cpp'을(를) 컴파일하는 중)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\fstream(20,1):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.cpp(138,6): error C2039: 'optional': 'std'의 멤버가 아닙니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\fstream(20,1):
+      'std' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.cpp(138,14): error C2143: 구문 오류: ';'이(가) '<' 앞에 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.cpp(138,6): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.cpp(138,6): error C2086: 'int optional': 재정의
+      C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.h(25,6):
+      'optional' 선언을 참조하십시오.
+  
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.cpp(138,14): error C2059: 구문 오류: '<'
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.cpp(138,62): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\utils.cpp(138,62): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  코드를 생성하고 있습니다...
+C:\Users\pc\source\repos\NewQuickDebug\NewQuickDebug\memset.cpp(192,1): error C4716: 'checkFileModified': 값을 반환해야 합니다.
